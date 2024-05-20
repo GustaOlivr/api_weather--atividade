@@ -18,7 +18,7 @@ class WeatherView(View):
 
     def dispatch(self, request: HttpRequest, *args: Any, **kwargs: Any):
         # deverá vir de request
-        token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJleHAiOjE3MTYxNzE1NzR9.F8ypVdmF2cVXsb9n-oW3DRAW24od6lY-AjwT7IestCI'
+        token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJleHAiOjE3MTYxNzM3MDB9.g9AH01u32qOrvnHMNC5Yvt_ULEIb7X8Q61d874y7r1c'
 
         error_code, _ = verifyToken(token)
         if error_code == 0:
